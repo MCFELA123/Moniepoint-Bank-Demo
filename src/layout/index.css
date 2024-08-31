@@ -235,7 +235,14 @@
     height: 5em;
     border-radius: 5em;
     background: #011532;
-    transform: translateY(-1em);
+    transform: translateY(-1.5em);
+}
+
+.send-container .send {
+    width: 80%;
+    height: 80%;
+    border-radius: 10em;
+    background: #ffc814;
 }
 /* 
 .span-nav:first-child {
