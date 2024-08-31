@@ -1,0 +1,319 @@
+*{
+    color: white;
+}
+
+@font-face {
+    font-family: fontReg;
+    src: url(/src/fonts/SF-Pro-Rounded-Medium.otf);
+  }
+  
+  .text {
+    font-family: fontReg;
+  }
+
+  @font-face {
+    font-family: fontHeavy;
+    src: url(/src/fonts/SF-Pro-Rounded-Black.otf);
+  }
+  
+  .text {
+    font-family: fontHeavy;
+  }
+
+  @font-face {
+    font-family: fontLight;
+    src: url(/src/fonts/SF-Pro-Rounded-Regular.otf);
+  }
+  
+  .font-reg {
+    font-family: fontLight;
+  }
+
+.classic-layout {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #021128;
+}
+
+.classic-layout .header-container {
+    width: 100%;
+    height: 6.5em;
+    margin: 0 auto;
+    /* background: red; */
+}
+
+.classic-layout .header-container .header {
+    width: 100%;
+    height: 3.5em;
+    /* background: red; */
+}
+
+.header .user-profile-container {
+    width: 9em;
+    position: absolute;
+    left: 0;
+    height: inherit;
+    /* background: blue; */
+}
+
+.header .user-profile-container .user-profile {
+    width: 3.2em;
+    height: 3.2em;
+    position: absolute;
+    left: 1em;
+    background-position: center;
+    background-size: 130%;
+    background-image: url(/src/images/user/user.png);
+    border-radius: .9em;
+}
+
+.header .user-profile-container .level-container {
+    width: 4em;
+    position: absolute;
+    height: 1.5em;
+    left: 5em;
+    background: #ffae002b;
+    border-radius: 5px;
+}
+
+.header .user-profile-container .level-container text {
+    font-size: .9em;
+    font-weight: bolder;
+    color: #ffae00c5;
+}
+
+.user-details-container {
+    height: inherit;
+    width: 52%;
+    margin-left: 2.7em;
+    position: absolute;
+}
+
+.user-details-container .user-details {
+    height: 100%;
+    float: left;
+}
+
+.user-details-container .user-details:first-child {
+    width: 60%;
+}
+
+.user-details-container .user-details:last-child {
+    width: 40%;
+}
+
+.user-details-container .user-details text {
+    font-family: fontReg;
+    font-weight: bold;
+}
+
+.account-details-container {
+    width: 90%;
+    height: 23em;
+    background: #011532dd;
+    overflow: hidden;
+    border-radius: 13px;
+    margin: 0 auto;
+}
+
+.account-details-container .acc-det {
+    width: 100%;
+    height: 2em;
+    margin: .9em auto;
+    /* background: #000; */
+}
+
+.account-details-container .acc-det .account-details {
+    width:  79%;
+    height: inherit;
+    float: left;
+    margin-left: 1em;
+    background: #021737;
+    border-radius: 1em;
+    box-shadow: 0 0 0 1px #32456099;
+}
+
+.account-details-container .acc-det .account-details .user-bank {
+    width: 2em;
+    height: 2em;
+    background: #0360ff;
+    border-radius: 1em;
+    text-align: center;
+    scale: .85;
+}
+
+.account-details-container .acc-det .account-details .user-more {
+    width: 2em;
+    height: 2em;
+    background: #324560b3;
+    border-radius: 1em;
+    margin-right: 4px;
+    text-align: center;
+    scale: .7;
+}
+
+.account-details-container .acc-det .account-copy {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+    border-radius: 1em;
+    background: #03132b;
+    box-shadow: 0 0 0 1.5px #324560aa;
+}
+
+.account-balance-container {
+    width: 100%;
+    height: 4em;
+    border-radius: 1em;
+    background: #ffc814;
+}
+
+.account-balance-container .main-balance {
+    width: 100%;
+    margin-top: -2px;
+    /* background: #000; */
+    font-family: fontHeavy !important;
+}
+
+.account-balance-container .main-balance .left {
+    margin-left: 1em;
+}
+
+.account-balance-container .main-balance .right {
+    margin-right: 1em;
+}
+
+.account-balance-container .main-balance text {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+/* .nav-container {
+    width: ;
+} */
+
+.nav {
+    width: 24.5em;
+    position: fixed;
+    height: 6em;
+    border-radius: 3em;
+    overflow: hidden;
+    background: #011532dd;
+    bottom: 1.5em;
+    box-shadow: 0 0 1em 0 #021128;
+}
+
+.nav .span-nav {
+    float: left;
+    width: 4.5em;
+    height: 5em;
+}
+
+.nav .span-nav .span {
+    width: 2.7em;
+    height: 3.5em;
+}
+
+.nav .span-nav .span main {
+    width: 100%;
+}
+
+.nav .span-nav .span main:first-child {
+    height: 70%;
+}
+
+.nav .span-nav .span main:last-child {
+    height: 30%;
+}
+/* 
+.span-nav:first-child {
+    background: #000;
+} */
+
+.cust {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 1em !important;
+}
+
+.scl-09 {
+    scale: .9;
+}
+
+.dark-theme-col {
+    font-weight: bold;
+    font-family: fontReg;
+    color:  #6e7e95
+}
+
+.black-col {
+    color: black;
+}
+
+.yellow-col {
+    font-family: fontReg;
+    color: #ffc814;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.thin {
+    font-weight: lighter;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.d-align {
+    align-items: center;
+}
+
+.d-align-start {
+    align-items: start;
+}
+
+.d-align-end {
+    align-items: end;
+}
+
+.d-justify {
+    justify-content: center;
+}
+
+.d-justify-start {
+    justify-content: start;
+}
+
+.d-justify-end {
+    justify-content: end;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.absolute {
+    position: absolute; 
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
