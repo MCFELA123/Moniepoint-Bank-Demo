@@ -66,7 +66,7 @@
     left: 1em;
     background-position: center;
     background-size: 130%;
-    background-image: url(/src/images/user/user.png);
+    background-image: url(https://github.com/MCFELA123/Moniepoint-Bank-Demo/blob/main/src/images/user/user.png?raw=true);
     border-radius: .9em;
 }
 
@@ -150,7 +150,7 @@
     height: 2em;
     background: #324560b3;
     border-radius: 1em;
-    margin-right: 4px;
+    margin-right: 2px;
     text-align: center;
     scale: .7;
 }
@@ -200,8 +200,8 @@
     position: fixed;
     height: 6em;
     border-radius: 3em;
-    overflow: hidden;
-    background: #011532dd;
+    /* overflow: hidden; */
+    background: #011532;
     bottom: 1.5em;
     box-shadow: 0 0 1em 0 #021128;
 }
@@ -227,6 +227,15 @@
 
 .nav .span-nav .span main:last-child {
     height: 30%;
+}
+
+.send-container {
+    width: 5em;
+    position: absolute;
+    height: 5em;
+    border-radius: 5em;
+    background: #011532;
+    transform: translateY(-1em);
 }
 /* 
 .span-nav:first-child {
